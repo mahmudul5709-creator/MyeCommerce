@@ -531,8 +531,12 @@ body {
 
 @media screen and (max-width:640px) {
 
+    .shoes-container {
+        margin-bottom: 250%;
+    }
+
     .contact-container {
-        width: 1000%;
+        margin-top: 800%;
     }
 
     .input {
@@ -544,5 +548,7 @@ body {
 
     .backpack-container {
         flex-direction: column;
+        margin-top: 10%;
+        margin-bottom: 20%;
     }
 }
