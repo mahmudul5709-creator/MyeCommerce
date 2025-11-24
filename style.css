@@ -96,7 +96,7 @@ body {
 .tv-btn-det h2 {
     margin-left: 3px;
     color: #FF136F;
-    margin-bottom: 15px;
+    padding-bottom: 15px;
     font-size: 36px;
     font-weight: 500;
     margin-right: 47px;
@@ -531,12 +531,36 @@ body {
 
 @media screen and (max-width:640px) {
 
-    .shoes-container {
-        margin-bottom: 250%;
+    .tv-container {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        margin-bottom: 50rem;
     }
 
-    .contact-container {
-        margin-top: 800%;
+    .tv-content {
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .tv-btn-det {
+        border: solid;
+        margin-left: 20rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    .tv-btn-det button {
+        margin-right: 30px;
+    }
+
+    .categorie {
+        margin-left: 30%;
+    }
+
+    .shoes-container {
+        margin-bottom: 250%;
     }
 
     .input {
@@ -550,5 +574,9 @@ body {
         flex-direction: column;
         margin-top: 10%;
         margin-bottom: 20%;
+    }
+
+    .contact-box {
+        margin-top: 800%;
     }
 }
