@@ -486,12 +486,53 @@ body {
         flex-direction: column;
         text-align: center;
         height: auto;
+        width: 555px;
+        margin-left: 10%;
+    }
+
+    .tv-content {
+        text-align: center;
+        margin-left: 30%;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+
+    .tv-content h1 {
+        margin-bottom: 2%;
+    }
+
+    .tv-content p {
+        font-size: 13px;
+        padding: 30px;
+        padding-left: 50px;
+        margin-top: 10px;
+        color: #000000;
+    }
+
+    .H-I {
+        padding: 20px;
+        margin-right: 40%;
+    }
+
+    .tv-btn-det {
+        margin-left: 30%;
+        width: 300px;
+    }
+
+    .tv-btn-det h2 {
+        font-size: 30px;
+    }
+
+    .tv-btn-det button {
+        margin-left: 20%;
     }
 
     .tv-image {
         height: auto;
         height: 500px;
         margin-right: 25%;
+        margin-left: 30%;
+        margin-top: 50%;
     }
 
 
@@ -503,14 +544,22 @@ body {
 
     .shoes-container {
         flex-direction: column;
-        margin-bottom: 100%;
+        margin-bottom: 130%;
     }
 
-    .bp-img-box img {
-        width: 290px;
-        height: 290px;
-        margin-right: 35%;
-        margin-left: 35%;
+    .shoes-box {
+        padding: 20px;
+        width: 400px;
+    }
+
+    .shoes-box .img-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .shoes-box .img-box img {
+        margin-right: 90px;
     }
 
     .img-box img {
@@ -522,9 +571,17 @@ body {
 
     .backpack-container {
         margin-bottom: 150%;
-        margin-top: 30%;
+        margin-top: 10%;
         flex-direction: column;
         max-width: 100%;
+    }
+
+    .backpack-box {
+        width: 400px;
+    }
+
+    .bp-img-box {
+        margin-left: 20px;
     }
 
     .contact-container {
@@ -540,7 +597,22 @@ body {
     }
 
     .contact-container {
-        margin-top: 480%;
+        margin-top: 276%;
+        margin-right: 80%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .contact-box{
+        width: 460px;
+    }
+
+    .contact-content h2 {
+        font-size: 20px;
+    }
+
+    .contact-content p {
+        font-size: 14px;
     }
 
 }
@@ -582,7 +654,7 @@ body {
         font-size: 14px;
         width: 30rem;
         margin-left: 23%;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
 
     .tv-btn-det {
@@ -650,10 +722,10 @@ body {
     .backpack-container {
         flex-direction: column;
         margin-top: 5%;
-        margin-bottom: 70%;
         width: 20rem;
         height: auto;
         align-items: center;
+        margin-bottom: 500%;
     }
 
     .bp-img-box {
@@ -661,12 +733,11 @@ body {
     }
 
     .contact-box {
-        margin: 0;
         margin-right: 0;
-        margin-top: 900%;
+        margin-top: 3500%;
         height: auto;
-        width: 100%;
-        margin-left: 10%;
+        width: 400px;
+        margin-left: 15%;
         margin-right: 30%;
     }
 
