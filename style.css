@@ -599,6 +599,10 @@ body {
         box-shadow: 0 0 10px #333;
     }
 
+    .tv-image {
+        margin-left: 30%;
+    }
+
     .tv-image img {
         margin-top: 50px;
         margin-left: 30px;
@@ -636,10 +640,11 @@ body {
         justify-content: center;
         align-items: center;
         gap: 20px;
+        padding: 20px;
     }
 
     .input input {
-        width: 280px;
+        width: 250px;
     }
 
     .backpack-container {
@@ -661,6 +666,11 @@ body {
         margin-top: 1000%;
         height: auto;
         width: 100%;
+        margin-left: 20%;
+    }
+
+    .contact-content p {
+        font-size: 13px;
     }
 
     .product-container {
