@@ -547,6 +547,11 @@ body {
 
 @media screen and (max-width:640px) {
 
+    body {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
     .tv-container {
         flex-direction: column;
         text-align: center;
@@ -554,6 +559,8 @@ body {
         width: 550px;
         margin-bottom: 10rem;
         padding: 60px;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .tv-content {
@@ -631,6 +638,10 @@ body {
         gap: 20px;
     }
 
+    .input input {
+        width: 300px;
+    }
+
     .backpack-container {
         flex-direction: column;
         margin-top: 10%;
@@ -647,7 +658,7 @@ body {
     .contact-box {
         margin: 0;
         margin-right: 0;
-        margin-top: 600%;
+        margin-top: 1000%;
         height: auto;
         width: 100%;
     }
