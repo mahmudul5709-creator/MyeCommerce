@@ -545,7 +545,7 @@ body {
 
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:640px) and (min-width: 300px) {
 
     body {
         margin-right: 0;
@@ -649,7 +649,7 @@ body {
 
     .backpack-container {
         flex-direction: column;
-        margin-top: 10%;
+        margin-top: 5%;
         margin-bottom: 70%;
         width: 20rem;
         height: auto;
@@ -663,10 +663,11 @@ body {
     .contact-box {
         margin: 0;
         margin-right: 0;
-        margin-top: 1000%;
+        margin-top: 900%;
         height: auto;
         width: 100%;
-        margin-left: 20%;
+        margin-left: 10%;
+        margin-right: 30%;
     }
 
     .contact-content p {
